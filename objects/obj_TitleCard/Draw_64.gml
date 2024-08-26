@@ -1,0 +1,1 @@
+draw_text(30 + offsetx,700,string(get.level_name) + " ACT " + string(get.level_act) );

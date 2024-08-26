@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"music_handler",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"music_handler",
+  "parent":{
+    "name":"Framework",
+    "path":"folders/Scripts/Framework.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
