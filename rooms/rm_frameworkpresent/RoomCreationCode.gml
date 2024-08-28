@@ -1,1 +1,1 @@
-show_debug_message("hi im a silly debugger");
+show_debug_message("if i appear too much that means that you fucked up");

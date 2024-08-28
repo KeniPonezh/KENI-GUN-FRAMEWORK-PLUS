@@ -1,5 +1,3 @@
-timer+=1
-
 image_xscale=xscale;
 image_angle=angle;
 
