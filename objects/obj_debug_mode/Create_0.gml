@@ -1,1 +1,1 @@
-setfont=cc_font_12;
+draw_set_font(cc_font_24)
