@@ -4,7 +4,7 @@ var _subPixel = 0.5;
 	if place_meeting(x + xspd, y, obj_Solid){
 // if slope - go up!
 		if !place_meeting(x+xspd,y - 2 -abs(yspd), obj_Solid) {
-	player_slope()
+	player_handle_slope()
 	};
 
 // if not slope - wall!

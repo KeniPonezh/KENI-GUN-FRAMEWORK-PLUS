@@ -17,11 +17,16 @@ if ignorecollision=false{
 
 // EXAMPLE ABILITIES
 if global.character=0{
-	if getinput.BPress{
+	if getinput.BPress && abilitycd=0{
 		movespd+=5*xdirection;
 		abilitycd=60
 	};
 	if abilitycd>30{
+		if !getinput.A{
 		yspd=yspd+((-5)-yspd)*0.1	
+		};
+		if getinput.A{
+		yspd=yspd+((-10)-yspd)*0.1	
+		};
 	};
 };
