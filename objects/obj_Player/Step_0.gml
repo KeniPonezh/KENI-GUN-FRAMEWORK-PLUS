@@ -8,22 +8,21 @@ xspd = movespd * 1;
 
 // x collision!!
 var _subPixel = 0.5;
-if place_meeting(x + xspd, y, obj_Solid){
+	if place_meeting(x + xspd, y, obj_Solid){
 // if slope - go up!
-	if !place_meeting(x+xspd,y - 2 -abs(yspd), obj_Solid) {
-		while place_meeting(x + xspd, y + abs(yspd), obj_Solid){
-		y -= 1;	
+		if !place_meeting(x+xspd,y - 2 -abs(yspd), obj_Solid) {
+			while place_meeting(x + xspd, y + abs(yspd), obj_Solid){
+			y -= 1;	
 		};
 	};
 
-
 // if not slope - wall!
-else{
+	else{
 		var _pixelCheck = _subPixel * sign(xspd);
 		while !place_meeting(x + _pixelCheck, y, obj_Solid){
 		x +=_pixelCheck		
 	};
-};
+}
 // when colliding with a wall, set speed to 0
 	xspd=0;	
 	movespd=0;

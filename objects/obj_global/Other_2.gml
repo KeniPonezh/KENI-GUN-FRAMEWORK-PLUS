@@ -29,5 +29,8 @@
 	instance_create_depth(0, 0, 0, obj_window_control);
 	instance_create_depth(0, 0, 0, obj_input);
 	instance_create_depth(0, 0, 0, obj_fade);
+	if global.debugmode=true{
+		instance_create_depth(0,0,0,obj_debug_mode)
+		};
 	#macro Input obj_input
 	room_goto_next();
