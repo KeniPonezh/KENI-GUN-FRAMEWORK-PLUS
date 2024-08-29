@@ -13,6 +13,7 @@ if ignoremovement=false{
 
 if ignorecollision=false{
 	player_handle_collision();
+	player_handle_slope();
 };
 
 // EXAMPLE ABILITIES

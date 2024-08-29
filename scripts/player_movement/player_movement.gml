@@ -41,7 +41,7 @@ movespd+=decceleration;
 
 // cap speed
 if abs(movespd)>topxspd{
-	movespd-=sign(movespd)*topxspd
+	movespd=sign(movespd)*topxspd
 }
 
 ///////////////////////////////////////////////////////////
