@@ -1,7 +1,7 @@
 timer+=1
 value+=0.1;
 
-angle = max(angle-value,0);
+angle = max(angle-value,0.0);
 
 if xscale<=1{
 xscale+=0.02	

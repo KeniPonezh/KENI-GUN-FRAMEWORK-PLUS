@@ -75,6 +75,7 @@
     {"id":{"name":"player_handle_collision","path":"scripts/player_handle_collision/player_handle_collision.yy",},},
     {"id":{"name":"player_handle_slope","path":"scripts/player_handle_slope/player_handle_slope.yy",},},
     {"id":{"name":"player_movement","path":"scripts/player_movement/player_movement.yy",},},
+    {"id":{"name":"Shader1","path":"shaders/Shader1/Shader1.yy",},},
     {"id":{"name":"mus_stage1","path":"sounds/mus_stage1/mus_stage1.yy",},},
     {"id":{"name":"spr_bgframeworktest","path":"sprites/spr_bgframeworktest/spr_bgframeworktest.yy",},},
     {"id":{"name":"spr_Player_Sensor","path":"sprites/spr_Player_Sensor/spr_Player_Sensor.yy",},},
