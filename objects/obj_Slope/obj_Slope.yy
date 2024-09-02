@@ -9,10 +9,7 @@
     "name":"Framework",
     "path":"folders/Objects/Framework.yy",
   },
-  "parentObjectId":{
-    "name":"obj_Solid",
-    "path":"objects/obj_Solid/obj_Solid.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
