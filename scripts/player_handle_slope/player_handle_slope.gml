@@ -1,8 +1,9 @@
 function player_slope()
 {
-    if place_meeting(x, (y - 1), obj_Solid){
-	y-=1	
-		
+	if (ground) && (place_meeting(x,y + abs(xspd) + 1 ,obj_Solid)) && (yspd >= 0)
+	{   
+    yspd -= abs(xspd) +1;
 	}
+ 
 }
 

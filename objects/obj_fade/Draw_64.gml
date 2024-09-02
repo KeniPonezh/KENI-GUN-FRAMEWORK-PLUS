@@ -1,8 +1,6 @@
-draw_set_color(c_black);
-gpu_set_blendmode_ext(bm_dest_color, bm_zero); 
-draw_rectangle(0, 1280, 0, 720, false);
-draw_set_alpha(fade_alpha);
-
-if fade_type=false{
-fade_alpha=255
-};
+// fade square
+	gpu_set_blendmode_ext(bm_dest_color, bm_zero); 
+	draw_set_color(c_black);
+//	draw_rectangle(cx, cy, cx + sw, cy + sh, false);
+	draw_set_color(c_white)
+	gpu_set_blendmode(bm_normal);

@@ -1,4 +1,8 @@
-x +=(obj_Player.x-x + obj_Player.xspd)
-y +=(obj_Player.y-y - 45)
+if (target=obj_Player){
+	xto=target.x;
+	yto=target.y;
+};
 
-camera_set_view_pos(view_camera[0],x-(1280*0.5),y-(720*0.5));
+x += (xto - x)/25
+y += (yto - y)/25
+camera_set_view_pos(view_camera[0],x-(global.window_width*0.5),y-(global.window_height*0.5));

@@ -1,4 +1,7 @@
 /// @description get scripts
+
+	player_handle_animation();
+	
 if abilitycd>0{
 	abilitycd-=1
 };
@@ -13,6 +16,7 @@ if ignoremovement=false{
 
 if ignorecollision=false{
 	player_handle_collision();
+	player_handle_slope();
 };
 
 // EXAMPLE ABILITIES
