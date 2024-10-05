@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Slope",
+  "%Name":"obj_slope",
   "eventList":[],
   "managed":true,
-  "name":"obj_Slope",
+  "name":"obj_slope",
   "overriddenProperties":[],
   "parent":{
     "name":"Framework",
     "path":"folders/Objects/Framework.yy",
   },
   "parentObjectId":{
-    "name":"obj_Solid",
-    "path":"objects/obj_Solid/obj_Solid.yy",
+    "name":"obj_solid",
+    "path":"objects/obj_solid/obj_solid.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

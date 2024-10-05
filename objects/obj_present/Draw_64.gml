@@ -1,5 +1,5 @@
 //present screen bg!
-draw_sprite_ext(spr_Present_1, 1, 0, 0, sprite_width/sprite_width +1, 1,0,c_white,1)
+draw_sprite_ext(spr_Present_1, 1, 0, 0, 1, 1,0,c_white,1)
 //present line!
 draw_sprite_ext(spr_Present_Line, 1, global.window_width / 2.0, global.window_height / 2.0, xscale, 1, angle, c_white, 1)
 //keni gun title!

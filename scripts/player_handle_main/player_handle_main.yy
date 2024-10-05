@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"player_handle_slope",
+  "%Name":"player_handle_main",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"player_handle_slope",
+  "name":"player_handle_main",
   "parent":{
     "name":"Handlers",
     "path":"folders/Scripts/Framework/Player/Handlers.yy",

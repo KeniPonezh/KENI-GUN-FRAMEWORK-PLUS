@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"player_handle_collision",
+  "%Name":"player_set_variables",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"player_handle_collision",
+  "name":"player_set_variables",
   "parent":{
     "name":"Player",
     "path":"folders/Scripts/Framework/Player.yy",

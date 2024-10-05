@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Solid",
+  "%Name":"obj_solid",
   "eventList":[],
   "managed":true,
-  "name":"obj_Solid",
+  "name":"obj_solid",
   "overriddenProperties":[],
   "parent":{
     "name":"Framework",

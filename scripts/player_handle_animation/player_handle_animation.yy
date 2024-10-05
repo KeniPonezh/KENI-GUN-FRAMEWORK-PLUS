@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"player_handle_animation",
   "parent":{
-    "name":"Player",
-    "path":"folders/Scripts/Framework/Player.yy",
+    "name":"Handlers",
+    "path":"folders/Scripts/Framework/Player/Handlers.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

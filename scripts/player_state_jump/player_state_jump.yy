@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"player_movement",
+  "%Name":"player_state_jump",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"player_movement",
+  "name":"player_state_jump",
   "parent":{
-    "name":"Player",
-    "path":"folders/Scripts/Framework/Player.yy",
+    "name":"States",
+    "path":"folders/Scripts/Framework/Player/States.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -1,5 +1,5 @@
 /// @description variables
-target = obj_Player
+target = obj_player
 
 xto=target.x
 yto=target.y

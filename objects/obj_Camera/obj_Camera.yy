@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Camera",
+  "%Name":"obj_camera",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Camera",
+  "name":"obj_camera",
   "overriddenProperties":[],
   "parent":{
     "name":"Player",
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Slope",
+    "path":"sprites/spr_Slope/spr_Slope.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,43 +1,19 @@
 /// @description get scripts
-
-	player_handle_animation();
+	abilitycd=max(abilitycd-1,0)
 	
-if abilitycd>0{
-	abilitycd-=1
-};
-
-if abilitycd<=0{
-	abilitycd=0
-};
-
-if ignoremovement=false{
-	player_movement();
-};
-
-if ignorecollision=false{
-	player_handle_collision();
+	player_set_variables();
+	player_state_base();
+	player_state_jump();
+	player_handle_main();
 	player_handle_slope();
-};
 
-// EXAMPLE ABILITIES
-//if global.character=0{
-//	if getinput.BPress && abilitycd=0{
-//		movespd+=5*xdirection;
-//		abilitycd=60
-//	};
-//	if abilitycd>30{
-//		if !getinput.A{
-//		yspd=yspd+((-5)-yspd)*0.1	
-//		};
-//		if getinput.A{
-//		yspd=yspd+((-10)-yspd)*0.1	
-//		};
-//	};
-//};
-if global.character=0{
+
+	// EXAMPL ABILITIES
+
+	if global.character=0{
 	if getinput.BPress  && abilitycd=0{
-	movespd=sin(getinput.ButtonDirection) * 9
-	yspd=cos(getinput.ButtonDirection) * 9
+	movespd=dsin(getinput.ButtonDirection) * 9
+	yspd=dcos(getinput.ButtonDirection) * 9
 	abilitycd=60
 	};
-};
+	};
