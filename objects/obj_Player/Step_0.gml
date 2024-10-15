@@ -8,7 +8,7 @@
 	player_handle_slope();
 
 
-	// EXAMPL ABILITIES
+	// EXAMPLE ABILITIES
 
 	if global.character=0{
 	if getinput.BPress  && abilitycd=0{

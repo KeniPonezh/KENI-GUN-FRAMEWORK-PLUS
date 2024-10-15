@@ -13,6 +13,7 @@ playerhealth=5;
 abilitycd=0;
 curanim="idle";
 animationspeed=0;
+tilemap_collision = layer_tilemap_get_id("PlayerLevelCollision")
 
 // directions
 allowxdirection=true

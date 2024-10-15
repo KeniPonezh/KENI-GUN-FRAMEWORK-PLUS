@@ -1,9 +1,8 @@
 function player_set_variables(){
 // CHARACTER 0
-
 if global.character = 0{
 //movement
-topxspd=8;
+topxspd=8.175;
 acceleration=1;
 decceleration=1;
 

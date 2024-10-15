@@ -11,10 +11,10 @@ if getinput.Left{
 	movespd-=acceleration;
 };
 
-/*// decel
-if getinput.Right=0 or getinput.Left=0{
-	movespd-=sign(movespd)*decceleration	
-};*/
+// decel
+if getinput.Right=0 && movespd>0{
+	max(movespd-(sign(movespd)*decceleration),0)
+};
 // cap speed
 if abs(movespd)>topxspd{
 	movespd=sign(movespd)*topxspd

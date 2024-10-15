@@ -10,3 +10,4 @@ textalpha=0
 textpbalpha=0
 textplusalpha=0
 plusangle=0
+bgalpha=0

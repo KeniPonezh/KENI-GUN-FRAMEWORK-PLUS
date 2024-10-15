@@ -6,7 +6,7 @@ function player_state_jump(){
 //========================
 
 //jump
-if getinput.APress && place_meeting(x,y+1, obj_solid){
+if getinput.APress && place_meeting(x,y+1, [tilemap_collision, obj_solid]){
 		yspd=(jumppower*-1);
 		isjumping=true;
 };
