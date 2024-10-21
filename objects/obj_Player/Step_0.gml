@@ -3,8 +3,6 @@ if ignorecollision=0{
 	scr_collision();
 };
 
-player_set_variables();
-
 switch state{
 	case state.main:
 		player_state_base()

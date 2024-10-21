@@ -1,3 +1,4 @@
+/// @description input check
 // hold input
 	Up = keyboard_check((global.up))
 	Down = keyboard_check((global.down))
@@ -17,7 +18,7 @@
 	CPress = keyboard_check_pressed((global.c))
 	StartPress = keyboard_check_pressed((global.start))
 // button direction
-	if Up{
+/*	if Up{
 	ButtonDirection = arctan2(Up-Down,Right-Left) + 90.0;
 	};
 		
@@ -31,4 +32,4 @@
 
 	if Right{
 	ButtonDirection = arctan2(Up-Down,Right-Left) + 90.0;
-	};
+	}; */

@@ -17,4 +17,4 @@
 	CPress = keyboard_check_pressed((global.c))
 	StartPress = keyboard_check_pressed((global.start))
 // other stuff
-	ButtonDirection = arctan2(Up-Down,Right-Left) + 90.0
+//	ButtonDirection = arctan2(Up-Down,Right-Left) + 90.0

@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"player_states",
+  "%Name":"player_input_scr",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"player_states",
+  "name":"player_input_scr",
   "parent":{
-    "name":"States",
-    "path":"folders/Scripts/Framework/Player/States.yy",
+    "name":"Framework",
+    "path":"folders/Scripts/Framework.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

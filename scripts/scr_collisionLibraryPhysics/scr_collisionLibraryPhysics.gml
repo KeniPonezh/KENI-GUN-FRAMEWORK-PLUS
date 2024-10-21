@@ -12,6 +12,7 @@ function scr_collision_init() {
 	grav = 0;		
 	hsp = 0;
 	vsp = 0;
+	
 	prevHsp = 0;
 	prevVsp = 0;	
 	

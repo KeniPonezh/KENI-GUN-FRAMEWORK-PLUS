@@ -5,9 +5,9 @@ move=getinput.Right - getinput.Left
 	
 	if(move!=0 && !place_meeting(x+move, y, obj_solid)){
 		if move=1{
-		hsp=max(hsp+acceleration,topxspd)
+		hsp=min(hsp+acceleration,topxspd)
 		}
-		else move=-1{
+		if move=-1{
 		hsp=max(hsp-acceleration,-topxspd)
 		};
 	}

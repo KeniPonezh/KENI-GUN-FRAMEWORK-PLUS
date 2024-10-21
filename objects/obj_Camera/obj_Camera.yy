@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_Slope",
-    "path":"sprites/spr_Slope/spr_Slope.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
