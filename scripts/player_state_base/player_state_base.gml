@@ -1,24 +1,25 @@
 function player_state_base(){
-//======X MOVEMENT========
-//========================
-
-// move
-if getinput.Right{
-	movespd+=acceleration;
+// dir
+var move
+move=getinput.Right - getinput.Left
+	
+	if(move!=0 && !place_meeting(x+move, y, obj_solid)){
+		if move=1{
+		hsp=max(hsp+acceleration,topxspd)
+		}
+		else move=-1{
+		hsp=max(hsp-acceleration,-topxspd)
+		};
+	}
+	else{
+		hsp = approach(hsp, 0, decceleration);
+	};
+	if (place_meeting(x+move, y, obj_solid)){
+		hsp=0;
+	};
+	
+	if (getinput.APress && grounded){
+		vsp=jumppower*-1
+		state=state.jump
+	};
 };
-
-if getinput.Left{
-	movespd-=acceleration;
-};
-
-// decel
-if getinput.Right=0 && movespd>0{
-	max(movespd-(sign(movespd)*decceleration),0)
-};
-// cap speed
-if abs(movespd)>topxspd{
-	movespd=sign(movespd)*topxspd
-}
-
-///////////////////////////////////////////////////////////
-}

@@ -1,14 +1,23 @@
 /// @description get scripts
-	abilitycd=max(abilitycd-1,0)
+if ignorecollision=0{
+	scr_collision();
+};
+
+player_set_variables();
+
+switch state{
+	case state.main:
+		player_state_base()
+	break
 	
-	player_set_variables();
-	player_state_base();
-	player_state_jump();
-	player_handle_main();
-	player_handle_slope();
+	case state.jump:
+		player_state_jump()
+	break
+};
 
-
-	// EXAMPLE ABILITIES
+/*
+// EXAMPLE ABILITIES
+	abilitycd=max(abilitycd-1,0)
 
 	if global.character=0{
 	if getinput.BPress  && abilitycd=0{
@@ -17,3 +26,4 @@
 	abilitycd=60
 	};
 	};
+*/

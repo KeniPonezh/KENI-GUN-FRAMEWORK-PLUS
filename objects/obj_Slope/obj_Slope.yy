@@ -6,12 +6,12 @@
   "name":"obj_slope",
   "overriddenProperties":[],
   "parent":{
-    "name":"Framework",
-    "path":"folders/Objects/Framework.yy",
+    "name":"Collision",
+    "path":"folders/Objects/Framework/Unown Collisions/Collision.yy",
   },
   "parentObjectId":{
-    "name":"obj_solid",
-    "path":"objects/obj_solid/obj_solid.yy",
+    "name":"par_collision",
+    "path":"objects/par_collision/par_collision.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Slope",
-    "path":"sprites/spr_Slope/spr_Slope.yy",
+    "name":"spr_unownSlope",
+    "path":"sprites/spr_unownSlope/spr_unownSlope.yy",
   },
   "spriteMaskId":null,
   "visible":true,

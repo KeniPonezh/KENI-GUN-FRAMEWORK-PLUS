@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_solid",
+  "%Name":"obj_slopePlatform",
   "eventList":[],
   "managed":true,
-  "name":"obj_solid",
+  "name":"obj_slopePlatform",
   "overriddenProperties":[],
   "parent":{
     "name":"Collision",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_unownSolid",
-    "path":"sprites/spr_unownSolid/spr_unownSolid.yy",
+    "name":"spr_unownSlopePlatform",
+    "path":"sprites/spr_unownSlopePlatform/spr_unownSlopePlatform.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -2,7 +2,7 @@ function player_set_variables(){
 // CHARACTER 0
 if global.character = 0{
 //movement
-topxspd=8.175;
+topxspd=8;
 acceleration=1;
 decceleration=1;
 
@@ -10,6 +10,10 @@ decceleration=1;
 jumppower=7;
 grav=0.21;
 maxyvelocity=40;
+
+// hitbox
+hitbox_w=50
+hitbox_h=90
 }
 
 // CHARACTER 1
