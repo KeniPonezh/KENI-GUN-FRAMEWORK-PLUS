@@ -5,10 +5,10 @@ move=getinput.Right - getinput.Left
 
 	if(move!=0 && !place_meeting(x+move, y, obj_solid)){
 		if move=1{
-		hsp=min(hsp+acceleration,topxspd)
+		hsp=min(hsp+acceleration,topxspd+topxspdextra)
 		}
 		if move=-1{
-		hsp=max(hsp-acceleration,-topxspd)
+		hsp=max(hsp-acceleration,-topxspd-topxspdextra)
 		};
 	}
 	else{
@@ -18,6 +18,6 @@ move=getinput.Right - getinput.Left
 		hsp=0;
 	};
 	
-if (grounded && vsp >= 0)
+if (grounded & vsp >= 0)
 	state=state.main
 };

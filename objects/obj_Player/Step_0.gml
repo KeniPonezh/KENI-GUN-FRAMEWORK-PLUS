@@ -3,6 +3,10 @@ if ignorecollision=0{
 	scr_collision();
 };
 
+movespd=hsp
+abilitycd=max(abilitycd-1,0)
+topxspdextra=max(topxspdextra-0.1245,0)
+
 switch state{
 	case state.main:
 		player_state_base()
@@ -10,6 +14,10 @@ switch state{
 	
 	case state.jump:
 		player_state_jump()
+	break
+	
+	case state.dash:
+		player_state_dash()
 	break
 };
 

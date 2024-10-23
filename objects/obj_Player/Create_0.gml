@@ -5,6 +5,7 @@ scr_collision_init()
 enum state{
 	main,
 	jump,
+	dash,
 };
 // get the object
 getinput=obj_input
@@ -15,6 +16,10 @@ abilitycd=0;
 curanim="idle";
 animationspeed=0;
 state=state.main;
+special_var_a=0
+special_var_b=0
+topxspdextra=0
+movespd=0
 
 // hitbox size
 hitbox_w=0
