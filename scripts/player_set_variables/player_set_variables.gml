@@ -5,6 +5,7 @@ if global.character = 0{
 topxspd=8;
 acceleration=1;
 decceleration=1;
+airdeccel=0.5;
 
 // jumping
 jumppower=7;
@@ -12,8 +13,8 @@ grav=0.21;
 maxyvelocity=40;
 
 // hitbox
-hitbox_w=50
-hitbox_h=90
+hitbox_w=90
+hitbox_h=120
 }
 
 // CHARACTER 1

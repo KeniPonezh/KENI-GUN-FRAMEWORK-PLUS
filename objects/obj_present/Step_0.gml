@@ -1,7 +1,7 @@
 timer+=1
 value+=0.1;
 
-angle = max(angle-value,0);
+angle = max(angle-value,0.000);
 bgalpha = min(bgalpha+0.015,1)
 
 if xscale<=1{

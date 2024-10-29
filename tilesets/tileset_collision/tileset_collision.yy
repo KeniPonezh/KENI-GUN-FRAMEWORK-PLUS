@@ -13,14 +13,11 @@
   "out_tilevborder":2,
   "parent":{
     "name":"Tile Sets",
-    "path":"folders/Tile Sets.yy",
+    "path":"folders/Sprites/Tile Sets.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
-  "spriteId":{
-    "name":"spr_collisiontilemap",
-    "path":"sprites/spr_collisiontilemap/spr_collisiontilemap.yy",
-  },
+  "spriteId":null,
   "spriteNoExport":false,
   "textureGroupId":{
     "name":"Default",

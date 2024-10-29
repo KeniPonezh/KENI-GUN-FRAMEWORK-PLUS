@@ -1,24 +1,23 @@
 function player_state_dash(){
-// dir
-var move
-move=getinput.Right - getinput.Left
-	
 	special_var_a+=1
 	special_var_b=35
+	allowxdirection=false
 
 	if (special_var_a<special_var_b){
-		hsp=12 * move
+		hsp=14 * move
 		vsp=0
+		grounded=0
 		topxspdextra=(abs(hsp)-topxspd)
 		// animation
-		sprite_index = spr_skin_0_idle
-		image_angle = -90 * move
+		sprite_index = anim_dash
+		angle = -90 * move
 	};
 
 if (special_var_a=special_var_b || move=0){
-	image_angle = 0
+	angle = 0
 	special_var_a=0
 	special_var_b=0
+	allowxdirection=true
 	state=state.main	
 };
 

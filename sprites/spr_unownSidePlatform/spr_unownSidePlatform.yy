@@ -24,15 +24,15 @@
   "name":"spr_unownSidePlatform",
   "nineSlice":{
     "$GMNineSliceData":"",
-    "bottom":1,
+    "bottom":6,
     "enabled":true,
     "guideColour":[4294902015,4294902015,4294902015,4294902015,],
     "highlightColour":1728023040,
     "highlightStyle":0,
-    "left":23,
+    "left":26,
     "resourceType":"GMNineSliceData",
     "resourceVersion":"2.0",
-    "right":6,
+    "right":4,
     "tileMode":[
       0,
       0,
@@ -40,7 +40,7 @@
       0,
       0,
     ],
-    "top":7,
+    "top":6,
   },
   "origin":0,
   "parent":{

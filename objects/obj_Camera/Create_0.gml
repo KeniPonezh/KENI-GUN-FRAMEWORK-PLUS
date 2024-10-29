@@ -4,6 +4,8 @@ target = obj_player
 xto=target.x
 yto=target.y
 
-camshake=0
-camxshift=0
-camyshift=0
+cam_shake=0
+cam_x_shift=0
+cam_y_shift=0
+
+cam_zoom=0
