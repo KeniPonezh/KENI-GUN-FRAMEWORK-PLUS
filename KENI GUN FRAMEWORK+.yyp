@@ -53,6 +53,7 @@
     {"$GMFolder":"","%Name":"MenuSprites","folderPath":"folders/Sprites/MenuSprites.yy","name":"MenuSprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"TitleScreen","folderPath":"folders/Sprites/MenuSprites/TitleScreen.yy","name":"TitleScreen","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Skins","folderPath":"folders/Sprites/Skins.yy","name":"Skins","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Skin 0","folderPath":"folders/Sprites/Skins/Skin 0.yy","name":"Skin 0","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Sprites/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],

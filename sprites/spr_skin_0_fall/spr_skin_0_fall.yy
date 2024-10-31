@@ -44,8 +44,8 @@
   },
   "origin":7,
   "parent":{
-    "name":"Skins",
-    "path":"folders/Sprites/Skins.yy",
+    "name":"Skin 0",
+    "path":"folders/Sprites/Skins/Skin 0.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
