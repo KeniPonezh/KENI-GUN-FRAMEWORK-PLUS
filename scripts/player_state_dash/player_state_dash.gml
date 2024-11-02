@@ -12,8 +12,9 @@ function player_state_dash(){
 		// animation
 		sprite_index = anim_dash
 		// afterimages
-		create_afterimage.sprite_index = obj_player.sprite_index
-		create_afterimage.image_index = obj_player.image_index
+		create_afterimage.sprite_index = sprite_index
+		create_afterimage.image_index = image_index
+		create_afterimage.image_xscale = sign(hsp)
 	};
 
 if (special_var_a=special_var_b){
