@@ -6,16 +6,16 @@ function player_state_megajump(){
 	if (special_var_a<special_var_b){
 		vsp=-12
 		grounded=0
-		abilitycd=2
+		abilitycd=1
 		// animation
 		sprite_index = anim_jump
 	};
 
-if (special_var_a=special_var_b || move=0){
+if (special_var_a=special_var_b){
 	angle = 0
 	special_var_a=0
 	special_var_b=0
-	abilitycd=60
+	abilitycd=120
 	allowxdirection=true
 	state=state.main	
 };
