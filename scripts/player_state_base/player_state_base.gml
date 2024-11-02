@@ -27,9 +27,14 @@ obj_camera.cam_zoom+=(0-obj_camera.cam_zoom) * 0.1
 		image_index=0
 	};
 	
-	if (abilitycd=0 && Input.BPress && move!=0){
+	if (abilitycd=0 && Input.BPress && move!=0 && global.character=0){
 		abilitycd=120
 		state=state.dash
+		image_index=0
+	};
+	
+	if (abilitycd=0 && grounded && Input.BPress && global.character=1){
+		state=state.megajump
 		image_index=0
 	};
 	

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"player_state_megajump",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"player_state_megajump",
+  "parent":{
+    "name":"States",
+    "path":"folders/Scripts/Framework/Player/States.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

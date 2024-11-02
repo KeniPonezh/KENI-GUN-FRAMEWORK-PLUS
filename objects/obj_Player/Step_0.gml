@@ -34,4 +34,9 @@ switch state{
 	case state.dash:
 		player_state_dash()
 	break
+	// DOUBLE JUMP STATE
+	case state.megajump:
+		player_state_megajump()
+	break
 };
+

@@ -2,7 +2,7 @@
 // THIS IS BASICALLY GLOBAL VALUES
 
 // player
-	global.character=0
+	global.character=1
 
 // screen values
 	global.window_size=1;

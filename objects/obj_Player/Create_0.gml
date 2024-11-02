@@ -6,6 +6,7 @@ enum state{
 	main,
 	jump,
 	dash,
+	megajump,
 };
 // get the object
 getinput=obj_input
