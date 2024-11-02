@@ -10,7 +10,6 @@ if global.character = 0{
 	// jumping
 		jumppower=7;
 		grav=0.21;
-		maxyvelocity=40;
 
 	// hitbox
 		hitbox_w=90
@@ -28,7 +27,6 @@ if global.character = 1{
 	// jumping
 		jumppower=12;
 		grav=0.41;
-		maxyvelocity=40;
 
 	// hitbox
 		hitbox_w=90

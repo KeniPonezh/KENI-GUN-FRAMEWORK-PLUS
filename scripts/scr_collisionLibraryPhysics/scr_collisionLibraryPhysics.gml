@@ -6,7 +6,7 @@ function scr_collision_init() {
 	usesCollision = true;
 	grounded = false;
 	groundedSlope = false;	
-	terminalVelocity = 10;
+	terminalVelocity = 100;
 	onMovingPlatform = noone;
 
 	grav = 0;		
