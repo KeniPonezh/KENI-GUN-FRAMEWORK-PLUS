@@ -8,9 +8,9 @@ if global.character = 0{
 		airdeccel=0.5;
 
 	// jumping
-		jumppower=7;
-		grav=0.21;
-
+		jumppower=9;
+		grav=0.35;
+		
 	// hitbox
 		hitbox_w=90
 		hitbox_h=120
@@ -19,10 +19,10 @@ if global.character = 0{
 // CHARACTER 1
 if global.character = 1{
 	//movement
-		topxspd=8;
+		topxspd=12;
 		acceleration=0.4;
-		decceleration=1;
-		airdeccel=0.5;
+		decceleration=0.75;
+		airdeccel=0.6;
 
 	// jumping
 		jumppower=12;
