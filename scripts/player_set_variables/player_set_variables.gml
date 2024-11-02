@@ -8,8 +8,8 @@ if global.character = 0{
 		airdeccel=0.5;
 
 	// jumping
-		jumppower=9;
-		grav=0.35;
+		jumppower=13;
+		grav=0.45;
 		
 	// hitbox
 		hitbox_w=90
@@ -29,8 +29,8 @@ if global.character = 1{
 		grav=0.41;
 
 	// hitbox
-		hitbox_w=90
-		hitbox_h=120
+		hitbox_w=30
+		hitbox_h=50
 }
 
 }

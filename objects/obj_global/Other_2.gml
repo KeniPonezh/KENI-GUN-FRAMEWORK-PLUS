@@ -8,6 +8,7 @@
 	global.window_size=1;
 	global.window_width=1280;
 	global.window_height=720;
+	
 // bgm & sfx
 	global.bgm=1;
 	global.sfx=1;

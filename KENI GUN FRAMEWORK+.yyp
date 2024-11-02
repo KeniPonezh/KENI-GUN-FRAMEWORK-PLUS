@@ -68,6 +68,7 @@
   "resources":[
     {"id":{"name":"cc_font_12","path":"fonts/cc_font_12/cc_font_12.yy",},},
     {"id":{"name":"cc_font_24","path":"fonts/cc_font_24/cc_font_24.yy",},},
+    {"id":{"name":"obj_afterimage","path":"objects/obj_afterimage/obj_afterimage.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_debug_mode","path":"objects/obj_debug_mode/obj_debug_mode.yy",},},
     {"id":{"name":"obj_fade","path":"objects/obj_fade/obj_fade.yy",},},
@@ -114,6 +115,7 @@
     {"id":{"name":"spr_Present_Line","path":"sprites/spr_Present_Line/spr_Present_Line.yy",},},
     {"id":{"name":"spr_Present_Plus","path":"sprites/spr_Present_Plus/spr_Present_Plus.yy",},},
     {"id":{"name":"spr_Present_PoweredBy","path":"sprites/spr_Present_PoweredBy/spr_Present_PoweredBy.yy",},},
+    {"id":{"name":"spr_skin_0_dash","path":"sprites/spr_skin_0_dash/spr_skin_0_dash.yy",},},
     {"id":{"name":"spr_skin_0_fall","path":"sprites/spr_skin_0_fall/spr_skin_0_fall.yy",},},
     {"id":{"name":"spr_skin_0_idle","path":"sprites/spr_skin_0_idle/spr_skin_0_idle.yy",},},
     {"id":{"name":"spr_skin_0_jump","path":"sprites/spr_skin_0_jump/spr_skin_0_jump.yy",},},

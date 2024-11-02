@@ -39,7 +39,8 @@ anim_idle=asset_get_index("spr_skin_" + string(global.character) + "_idle")
 anim_walk=asset_get_index("spr_skin_" + string(global.character) + "_walk")
 anim_jump=asset_get_index("spr_skin_" + string(global.character) + "_jump")
 anim_fall=asset_get_index("spr_skin_" + string(global.character) + "_fall")
-anim_dash=asset_get_index("spr_skin_" + string(global.character) + "_idle")
+// ability animations
+anim_dash=asset_get_index("spr_skin_" + string(global.character) + "_dash")
 
 
 // directions
