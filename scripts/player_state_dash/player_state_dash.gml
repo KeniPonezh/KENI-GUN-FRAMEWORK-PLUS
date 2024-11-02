@@ -16,7 +16,6 @@ function player_state_dash(){
 		create_afterimage.image_index = image_index
 		create_afterimage.image_xscale = sign(hsp)
 		create_afterimage.fade_spd = 0.08
-		create_afterimage.image_blend = make_color_rgb(255, 255, 255)
 	};
 
 if (special_var_a=special_var_b){
