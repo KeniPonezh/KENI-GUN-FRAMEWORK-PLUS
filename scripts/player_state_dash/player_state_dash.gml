@@ -2,7 +2,7 @@ function player_state_dash(){
 	special_var_a+=1
 	special_var_b=35
 	allowxdirection=false
-	var create_afterimage = instance_create_depth(x, y, -1, obj_afterimage)
+	var create_afterimage = instance_create_depth(x, y, depth+1, obj_afterimage)
 	
 	if (special_var_a<special_var_b){
 		hsp=16* move
@@ -15,6 +15,8 @@ function player_state_dash(){
 		create_afterimage.sprite_index = sprite_index
 		create_afterimage.image_index = image_index
 		create_afterimage.image_xscale = sign(hsp)
+		create_afterimage.fade_spd = 0.08
+		create_afterimage.image_blend = make_color_rgb(255, 255, 255)
 	};
 
 if (special_var_a=special_var_b){

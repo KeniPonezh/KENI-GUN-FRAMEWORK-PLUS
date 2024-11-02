@@ -2,7 +2,7 @@
 timer+=1
 
 // destroy when invisible
-image_alpha -= 0.04;
+image_alpha -= fade_spd;
 if(image_alpha <= 0){
 	instance_destroy();
 };
