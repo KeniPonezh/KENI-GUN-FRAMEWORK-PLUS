@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":59.26317,
+  "duration":116.22098,
   "name":"mus_stage1",
   "parent":{
     "name":"Levels",

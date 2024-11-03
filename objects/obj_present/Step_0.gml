@@ -26,7 +26,6 @@ if timer>100{
 
 // goto next room!
 if timer=240{
-	show_debug_message("токикс мой краш")
 	room_goto_next()	
 };
 

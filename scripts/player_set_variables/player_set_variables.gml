@@ -2,9 +2,9 @@ function player_set_variables(){
 // CHARACTER 0
 if global.character = 0{
 	//movement
-		topxspd=8;
-		acceleration=1;
-		decceleration=1;
+		topxspd=9;
+		acceleration=0.6;
+		decceleration=0.7;
 		airdeccel=0.5;
 
 	// jumping
