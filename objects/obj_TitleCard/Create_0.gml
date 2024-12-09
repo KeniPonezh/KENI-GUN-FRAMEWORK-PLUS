@@ -1,4 +1,4 @@
-get=obj_level_handler
+get=obj_level
 //draw_set_font(cc_font_24);
 
 // timer

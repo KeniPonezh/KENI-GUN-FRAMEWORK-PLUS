@@ -1,36 +1,25 @@
 function player_set_variables(){
-// CHARACTER 0
-if global.character = 0{
+	var setphysics = {
+		topxspd : [16.5, 12],
+		acceleration : [0.625, 0.4],
+		decceleration : [0.9, 0.75],
+		airdeccel : [0.3, 0.6],
+		jumppower : [12, 12],
+		grav : [0.45, 0.41],
+		hitbox_w : [90, 30],
+		hitbox_h : [120, 50],
+	}
 	//movement
-		topxspd=9;
-		acceleration=0.6;
-		decceleration=0.7;
-		airdeccel=0.5;
+		topxspd = setphysics.topxspd[Character];
+		acceleration = setphysics.acceleration[Character];
+		decceleration = setphysics.decceleration[Character];
+		airdeccel = setphysics.airdeccel[Character];
 
 	// jumping
-		jumppower=13;
-		grav=0.45;
+		jumppower = setphysics.jumppower[Character];
+		grav = setphysics.grav[Character];
 		
 	// hitbox
-		hitbox_w=90
-		hitbox_h=120
-}
-
-// CHARACTER 1
-if global.character = 1{
-	//movement
-		topxspd=12;
-		acceleration=0.4;
-		decceleration=0.75;
-		airdeccel=0.6;
-
-	// jumping
-		jumppower=12;
-		grav=0.41;
-
-	// hitbox
-		hitbox_w=30
-		hitbox_h=50
-}
-
+		hitbox_w = setphysics.hitbox_w[Character];
+		hitbox_h = setphysics.hitbox_h[Character];
 }

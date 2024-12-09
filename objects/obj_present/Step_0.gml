@@ -26,6 +26,7 @@ if timer>100{
 
 // goto next room!
 if timer=240{
-	room_goto_next()	
+//	fade_to_room(rm_framework_test,1)
+	fade_to_room(rm_framework_testing,1)
 };
 

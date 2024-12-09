@@ -10,8 +10,8 @@
   "name":"obj_titlecard",
   "overriddenProperties":[],
   "parent":{
-    "name":"Framework",
-    "path":"folders/Objects/Framework.yy",
+    "name":"Level",
+    "path":"folders/Objects/Framework/Level.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -29,9 +29,16 @@
 // finish up!
 	instance_create_depth(0, 0, 0, obj_window_control);
 	instance_create_depth(0, 0, 0, obj_input);
-	instance_create_depth(0, 0, 0, obj_fade);
+/*	keni gun leftover whoops maybe later
+instance_create_depth(0, 0, 0, obj_audio);
+*/
+	instance_create_depth(0, 0, -999, obj_fade);
 	if global.debugmode=true{
 		instance_create_depth(0,0,0,obj_debug_mode)
-		};
+	};
 	#macro Input obj_input
+	#macro W_Width global.window_width
+	#macro W_Height global.window_height
+	#macro Character global.character
 	room_goto_next();
+

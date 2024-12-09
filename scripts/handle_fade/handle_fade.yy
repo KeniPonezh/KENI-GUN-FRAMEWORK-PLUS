@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"handle_fade",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"handle_fade",
+  "parent":{
+    "name":"Handles",
+    "path":"folders/Scripts/Framework/Handles.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

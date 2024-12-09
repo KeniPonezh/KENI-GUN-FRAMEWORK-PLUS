@@ -18,18 +18,6 @@
 	CPress = keyboard_check_pressed((global.c))
 	StartPress = keyboard_check_pressed((global.start))
 // button direction
-/*	if Up{
-	ButtonDirection = arctan2(Up-Down,Right-Left) + 90.0;
-	};
-		
-	if Down{
-	ButtonDirection = arctan2(Up-Down,Right-Left) + 90.0;
-	};
-	
-	if Left{
-	ButtonDirection = arctan2(Up-Down,Right-Left) + 90.0;
-	};
-
-	if Right{
-	ButtonDirection = arctan2(Up-Down,Right-Left) + 90.0;
-	}; */
+	if (Up || Down || Left || Right){
+		ButtonDirection = darctan2(Up - Down, Right - Left) + 90;
+	}; 

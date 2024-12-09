@@ -1,5 +1,5 @@
-
 	fade_timer = 1;
+	fade_speed = 1;
 	fade_type = fade_in;
 	fade_room = noone;
 	

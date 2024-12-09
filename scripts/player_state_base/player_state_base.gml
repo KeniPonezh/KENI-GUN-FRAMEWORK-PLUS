@@ -3,10 +3,10 @@ obj_camera.cam_zoom+=(0-obj_camera.cam_zoom) * 0.1
 	
 	if(move!=0 && !place_meeting(x+move, y, obj_solid)){
 		if move=1{
-		hsp=min(hsp+acceleration,topxspd+topxspdextra)
+			hsp=min(hsp+acceleration,topxspd+topxspdextra)
 		}
 		if move=-1{
-		hsp=max(hsp-acceleration,-topxspd-topxspdextra)
+			hsp=max(hsp-acceleration,-topxspd-topxspdextra)
 		};
 	}
 	else{
